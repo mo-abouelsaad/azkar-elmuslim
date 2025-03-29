@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ZadElMuslim.A3malElmuslim" BackgroundImage="mecca.png">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="10">
+                <Label LineHeight="20" FontFamily="{Binding Android}" FontSize="35" TextColor="white" HorizontalTextAlignment="Center" Text="
+             من الأعمال المشروعة للمسلم في اليوم والليلة"/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+                شرع الله للمسلم أعمالا يومية يتقرب بها إلى ربه وتقوي إيمانه وتكون سببا في حفظه وسلامته وسببا في تكفير سيئاته ومضاعفة حسناته ورفع درجاته منها:"/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+1- أربعون ركعة كان النبي  يحافظ عليها في اليوم والليلة ولنا فيه أسوة حسنة على النحو التالي:
+سبع عشرة ركعة الفرائض، وعشر ركعات أو اثنتا عشرة ركعة السنن الرواتب، وإحدى عشرة ركعة أو ثلاث عشرة ركعة صلاة الليل والوتر، ومجموعها أربعون ركعة عدا النوافل المطلقة وصلاة الضحى."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+2- ملازمة أذكار الصباح والمساء والنوم والانتباه والأكل والشرب والأذكار الواردة بعد السلام من الصلاة."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+3- قراءة ما تيسر من القرآن الكريم وينبغي أن لا ينقص عن قراءة جزء من القرآن يوميا."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+4- ملازمة التوبة والاستغفار في الليل والنهار قال الله تعالى: وَتُوبُوا إِلَى اللهِ جَمِيعًا أَيُّهَا الْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ وقال  «يا أيها الناس توبوا إلى الله واستغفروه فإني أستغفر الله وأتوب إليه في اليوم مائة مرة»."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+5- ملازمة أذكار الدخول والخروج بالنسبة للمسجد والبيت والحمام التي تطرد الشيطان."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+6- ذكر الله كثيرا بلسانك وقلبك قائما وقاعدا وعلى جنبك قال تعالى فَاذْكُرُونِي أَذْكُرْكُمْ أَلاَ بِذِكْرِ اللهِ تَطْمَئِنُّ الْقُلُوبُ وَلَذِكْرُ اللهِ أَكْبَرُ وَالذَّاكِرِينَ اللهَ كَثِيرًا وَالذَّاكِرَاتِ أَعَدَّ اللهُ لَهُمْ مَغْفِرَةً وَأَجْرًا عَظِيمًا الَّذِينَ يَذْكُرُونَ اللهَ قِيَامًا وَقُعُودًا وَعَلَى جُنُوبِهِمْ وفي الحديث «ما عمل آدمي عملا أنجا له من عذاب الله من ذكر الله» «مثل الذي يذكر ربه والذي لا يذكره مثل الحي والميت» وقال  فيما يرويه عن ربه تعالى: «أنا مع عبدي ما ذكرني وتحركت بي شفتاه» وقال عليه الصلاة والسلام «لا يزال لسانك رطبا من ذكر الله»."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+7- مراقبة الله تعالى في السر والعلانية ومحاسبة النفس ومجاهدتها في القول والعمل والفعل والترك، واعلم أيها المسلم أن الله تعالى يراك ويسمعك ويعلم ما يكنه ضميرك فاحذر أن يراك حيث نهاك أو يفقدك حيث أمرك وقد وكل بك ملائكة حافظين كراما كاتبين يعلمون ما تفعل ويكتبون ما تقول فلا تملي عليهم إلا خيرا."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+8- دعاء الله وحمده وشكره والثناء عليه وَقَالَ رَبُّكُمُ ادْعُونِي أَسْتَجِبْ لَكُمْ وَقُلِ الْحَمْدُ للهِ وَمَنْ شَكَرَ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِ لَئِنْ شَكَرْتُمْ لأَزِيدَنَّكُمْ."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+9- الإكثار من الصلاة والسلام على رسول الله  تسليما كثيرا."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+(فائدة)
+الأسباب التي يعتصم بها العبد من الشيطان عشرة:"/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+1-	الاستعاذة بالله منه قال تعالى وَإِمَّا يَنْزَغَنَّكَ مِنَ الشَّيْطَانِ نَزْغٌ فَاسْتَعِذْ بِاللهِ إِنَّهُ هُوَ السَّمِيعُ الْعَلِيمُ سورة فصلت آية 36وقال تعالى:وَقُلْ رَبِّ أَعُوذُ بِكَ مِنْ هَمَزَاتِ الشَّيَاطِينِ * وَأَعُوذُ بِكَ رَبِّ أَنْ يَحْضُرُونِ."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+             - قراءة المعوذتين قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ وقُلْ أَعُوذُ بِرَبِّ النَّاسِ."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+3-	قراءة المعوذتين قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ وقُلْ أَعُوذُ بِرَبِّ النَّاسِ."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+ 4- قراءة آية الكرسي اللهُ لا إِلَهَ إِلا هُوَ الْحَيُّ الْقَيُّومُ الآية 255 من سورة البقرة."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+5-	قراءة سورة البقرة قال : «إن الشيطان يفر من البيت الذي تقرأ فيه سورة البقرة» رواه مسلم والنسائي."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+ 6-	قراءة أول حم المؤمن إلى إِلَيْهِ الْمَصِيرُ الآيات 1 – 2 – 3 – من سورة غافر."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+7- قول لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل شيء قدير مائة مرة - متفق عليه."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+8- كثرة ذكر الله تعالى قال : «رأيت رجلا من أمتي قد احتوشته الشياطين فجاء ذكر الله فطرد الشياطين عنه» رواه الحافظ أبو موسى المديني وأخرجه الطبراني أيضا."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+9- الوضوء مع الصلاة."/>
+                <Label LineHeight="15" FontFamily="{Binding Android}" FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+10- إمساك فضول النظر والكلام والطعام ومخالطة الناس وليعلم أن الناس أربعة أقسام: 
+أحدها: من مخالطته كالغذاء لا يستغنى عنه في اليوم والليلة وهم العلماء بالله وأمره ومكائد عدوه وأمراض القلوب وأدويتها الناصحون لله ولكتابه ولرسوله ولخلقه فهذا في مخالطته الربح كله.
+الثاني: من مخالطته كالدواء تحتاج إليه عند المرض فما دمت صحيحا فلا حاجة لك في خلطته وهم من لا يستغنى عن مخالطتهم في مصلحة المعاش والقيام بما أنت محتاج إليه
+الثالث: من مخالطته كالداء على اختلاف مراتبه وأنواعه وقوته وضعفه وهم من في خلطته ضرر ديني أو دنيوي ومتى ابتليت بواحد من هؤلاء فلتعاشره بالمعروف حتى يجعل الله لك مخرجا ومتى تمكنت من نقله إلى الخير فهي فرصة تغتنم.
+الرابع: من في مخالطته الهلاك كله بمنزلة السم وهم أهل البدع والضلال."/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

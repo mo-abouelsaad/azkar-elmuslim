@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZadElMuslim.Zikr"
+            >
+    <ContentPage.ToolbarItems BarBackgroundColor="#492602" >
+        <ToolbarItem  Icon="menu.png" Command="Main.showmenu"  />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+
+            <RelativeLayout>
+                <Button x:Name="fav" HeightRequest="65" TextColor="White" Text="اضافة الي المفضلة" FontFamily="{Binding Android}" FontSize="15"    BackgroundColor="#56d856" Clicked="favorize" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Height,Factor=0,Constant=0}"
+
+        RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=0.25,Constant=0}" 
+       />
+                <Button HeightRequest="65" TextColor="White" Text="نسخ" FontFamily="{Binding Android}" FontSize="15"   BackgroundColor="#efb333" Clicked="copy" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Height,Factor=0,Constant=0}"
+                            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=0.25,Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=0.25,Constant=0}"/>
+                <Button HeightRequest="65" FontFamily="{Binding Android}" FontSize="15"    TextColor="White" Text="نشر" BackgroundColor="#2e5cd0"  Clicked="share" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Height,Factor=0,Constant=0}"
+                            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=0.5,Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=0.25,Constant=0}"
+        />
+                <Button HeightRequest="65" FontFamily="{Binding Android}" FontSize="15"    TextColor="White" Text="ذكرني" BackgroundColor="#ce2929" Clicked="zakr" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Height,Factor=0,Constant=0}"
+                            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
+            Property=Width,Factor=0.75,Constant=0}"
+        RelativeLayout.WidthConstraint="{ConstraintExpression
+            Type=RelativeToParent,Property=Width,Factor=0.25,Constant=0}"
+        />
+
+            </RelativeLayout>
+            <ScrollView>
+
+                <StackLayout HeightRequest="1500" Margin="15">
+                    <Label
+                            
+                            LineHeight="15" HorizontalTextAlignment="Center"    FontFamily="{Binding Android}" FontSize="20" TextColor="White" x:Name="title">
+                    </Label>
+                    <Label
+                          LineHeight="15" FontFamily="{Binding Android}" FontSize="20"    TextColor="White"  x:Name="body"></Label>
+                    <Button x:Name="tasbih" Text="" Clicked="addtasbih" TextColor="White" BackgroundColor="#56d856"></Button>
+                    <Button x:Name="restasbih" Text="تصفير عداد التسبيح" TextColor="White" Clicked="resettasbih" BackgroundColor="#ce2929"></Button>
+                </StackLayout>
+
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

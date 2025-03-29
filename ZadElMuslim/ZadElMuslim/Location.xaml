@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" BackgroundImage="mecca.png"
+             x:Class="ZadElMuslim.Location">
+    <ContentPage.ToolbarItems BarBackgroundColor="#644103"  >
+        <ToolbarItem x:Name="menu"  Icon="menu.png"  />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand">
+            <Label LineHeight="15"   x:Name="status"  HorizontalTextAlignment="Center"  FontSize="20" TextColor="White" Text="من فضلك قم بتشغيل الانترنت و محدد الموقع و قم بالضغط علي الزر لتحديد موقعك و تحديد مواعيد الاذكار"
+ ></Label>
+            <Label LineHeight="15"   TextColor="White" HorizontalTextAlignment="Center"  FontSize="20" x:Name="city"></Label>
+            <Label LineHeight="15"   TextColor="White" HorizontalTextAlignment="Center"  FontSize="20" x:Name="rise"></Label>
+            <Label LineHeight="15"   TextColor="White" HorizontalTextAlignment="Center"  FontSize="20" x:Name="set"></Label>
+                    <Button BackgroundColor="Orange" Clicked="GetLoc" Text='حدد موقعك'></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

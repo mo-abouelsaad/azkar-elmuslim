@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slideoverkit:SlideMenuView
+    xmlns:slideoverkit="clr-namespace:SlideOverKit;assembly=SlideOverKit"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZadElMuslim.Left">
+    <ScrollView>
+     <StackLayout Margin="10">
+        <Image HorizontalOptions="Center" Source="iconmenu.png"/>
+        <Button Font="Large" FontFamily="{Binding Android}" Text="الرئيسية"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="main"
+                 />
+        <Button Font="Large" FontFamily="{Binding Android}" Text="الاذكار المفضلة"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="fav"
+                 />
+            <Button Font="Large" FontFamily="{Binding Android}" Text="من فوائد ذكر الله و مزاياه"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="fawaed"
+                 />
+            <Button Font="Large" FontFamily="{Binding Android}" Text="اذكار الصباح"
+                VerticalOptions="Center"
+                                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="sabah"
+
+                 />
+        <Button Font="Large" FontFamily="{Binding Android}" Text="اذكار المساء"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="masaa"
+
+                 />
+        <Button Font="Large" FontFamily="{Binding Android}" Text="تحديد اوقات اذكار"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="loc"
+
+                 />
+            <Button Font="Large" FontFamily="{Binding Android}" Text=" 
+من الأعمال المشروعة للمسلم في اليوم والليلة
+"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="aamal"
+
+                 />      
+        <Button Font="Large" FontFamily="{Binding Android}" Text=" 
+سنن قل العمل بها"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="sonan"
+                 />  
+        <Button Font="Large" FontFamily="{Binding Android}" Text=" 
+مخالفات منتشرة"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="moharamat"
+                 />      
+        <Button Font="Large" FontFamily="{Binding Android}" Text=" 
+كتب ينصح باقتنائها والقراءة فيها
+"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="books"
+                 />
+        
+        <Button Font="Large" FontFamily="{Binding Android}" Text="ضبط البرنامج"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="setting"
+
+                 />
+        <Button  FontFamily="{Binding Android}" Text="عن البرنامج" Font="Large"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="White"
+                Clicked="about"
+
+
+                 />
+    </StackLayout>
+    </ScrollView>
+</slideoverkit:SlideMenuView>

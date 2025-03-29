@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZadElMuslim.DeathPrayer" BackgroundImage="mecca.png">
+    <ContentPage.Content>
+        <ScrollView>
+             <StackLayout Margin="10">
+
+                <Label LineHeight="15" FontFamily="{Binding Android}" Margin="20" TextColor="white" FontSize="35" HorizontalTextAlignment="Center">أذكار المساء</Label>
+                <Label LineHeight="15" FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="1- قراءة قل هو الله أحد والمعوذتين ثلاث مرات تكفي من كل شيء.
+
+                       "></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

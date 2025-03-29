@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZadElMuslim.Moharamat" BackgroundImage="masjed.jpg">
+    <ContentPage.Content>
+        <ScrollView>
+             <StackLayout Margin="10">
+                <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="35" TextColor="white" HorizontalTextAlignment="Start" Text="
+                مخالفات منتشرة"/>
+                <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+                       - التهاون بالصلاة وتأخيرها عن وقتها والتخلف عن جماعتها في المسجد."/>
+                <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+2- أكل أموال الناس بالباطل والتعامل بالربا."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+3- الإسراف والتبذير في الولائم والأفراح والحفلات."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+4- الغش في البيع والشراء."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+5- التبرج والسفور من النساء."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+6- استقدام الكفرة للاستخدام والعمل."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+7- شرب الدخان وبيعه وشرائه وما في حكمه."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+8- الإسبال في اللباس للرجال."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+9- حلق اللحية وترك الشارب."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+10- استماع الأغاني والموسيقى."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+11- الغيبة والنميمة والكذب."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+12- خروج المرأة متعطرة ومتزينة في الميادين العامة."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+13- لبس المرأة للثياب القصيرة والشفافة."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+14- التهاون بستر العورة المحددة."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+15- هجر القرآن الكريم بعدم تلاوته وتدبره والعمل به."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+16- انتشار السباب واللعان بين المسلمين."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+17- تصوير ذوات الأرواح واقتنائها ونصبها في المجالس."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+18- إلقاء الكتب والمجلات والجرائد وما فيه ذكر الله في المزابل."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+19- تشبه الرجال بالنساء والنساء بالرجال."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+20- التشبه بالكفار في الأقوال والأفعال واللباس والعادات والتقاليد."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+اللهم إنا نسألك العفو والعافية في الدنيا والآخرة.
+اللهم اكفنا بحلالك عن حرامك وبطاعتك عن معصيتك وبفضلك عمن سواك."/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

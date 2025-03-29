@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZadElMuslim.Sonan" BackgroundImage="nabawi.jpg">
+    <ContentPage.ToolbarItems BarBackgroundColor="#644103" >
+        <ToolbarItem  Icon="menu.png" Command="Main.showmenu"  />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+             <StackLayout Margin="10">
+                <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+                سنن قل العمل بها"/>
+                <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+1- زيارة القبور والإكثار من ذكر الموت."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+2- صيام ثلاثة أيام من كل شهر."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+3- سنة الضحى."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+4- التكبير ليلة عيد الفطر والأضحى وأيام التشريق وعشر ذي الحجة."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+5- قيام الليل والوتر."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+6- ذكر كفارة المجلس (سبحانك اللهم وبحمدك، أشهد أن لا إله إلا أنت، أستغفرك وأتوب إليك)."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+7- صلاة ودعاء الاستخارة عندما يكون الإنسان مترددا بين فعل شيء أو تركه."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+8- السلام على من عرفت ومن لم تعرف."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+9- الاعتكاف في العشر الأواخر من رمضان."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+10- إجابة المؤذن عند سماع الأذان."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+11- دعاء الركوب في الحل والترحال."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+12- الدعاء للمسلمين بظهر الغيب."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+13- أذكار الصباح والمساء والنوم والانتباه والدخول والخروج بالنسبة للبيت والمسجد والحمام."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+14- الأذكار المشروعة بعد السلام من الصلاة."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+15- التزاور لله وفي الله."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+16- ملازمة ذكر الله."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+17- الاقتصاد في المأكل والمشرب والملبس والنفقة."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+18- الأمر بالمعروف والنهي عن المنكر."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+19- الحب في الله والبغض في الله والموالاة في الله والمعاداة في الله."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+20- شكر النعم ومحاسبة النفس."/> <Label LineHeight="15"   FontFamily="{Binding Android}"  FontSize="Large" TextColor="white" HorizontalTextAlignment="Start" Text="
+اللهم أعنا على ذكرك وشكرك وحسن عبادتك."/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

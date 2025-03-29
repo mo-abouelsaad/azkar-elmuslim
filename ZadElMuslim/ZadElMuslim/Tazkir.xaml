@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZadElMuslim.Tazkir" BackgroundImage="WhiteMasjed.png">
+    <ContentPage.ToolbarItems BarBackgroundColor="#644103" >
+        <ToolbarItem  Icon="menu.png" Command="Main.showmenu"  />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand">
+            <Label LineHeight="15" FontSize="40" Margin="30" Text="من فضلك قم باختيار  وقت التذكير" HorizontalTextAlignment="Center" TextColor="#2d2e30" />
+            <TimePicker BackgroundColor="White"  FontFamily="{Binding Android}" x:Name="time"
+            HorizontalOptions="Center" />
+            <Button BackgroundColor="Orange" FontFamily="{Binding Android}" Text="Submit" Clicked="sbmt"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

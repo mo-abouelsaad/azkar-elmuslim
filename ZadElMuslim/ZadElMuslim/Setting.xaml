@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZadElMuslim.Setting">
+    <ContentPage.ToolbarItems BarBackgroundColor="#492602" >
+        <ToolbarItem  Icon="menu.png" Command="Main.showmenu"  />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="8*" />
+                    <ColumnDefinition Width="4*" />
+
+                </Grid.ColumnDefinitions>
+
+                <Label FontFamily="{Binding Android}" FontSize="25"   VerticalTextAlignment="center" Grid.ColumnSpan="2" Grid.Row="0" Grid.Column="0" TextColor="White" HorizontalTextAlignment="Center" BackgroundColor="#492602" Text="ضبط الخط"></Label>
+
+                <Label FontFamily="{Binding Android}" FontSize="20"     Grid.Row="1" Grid.Column="1"  Text="نوع الخط"></Label>
+                <Picker   Grid.Row="1" Grid.Column="0" TextColor="White" FontFamily="{Binding Android}" FontSize="20"   x:Name="moh" Title="نوع الخط">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>BShiraz</x:String>
+                            <x:String>AlArabia</x:String>
+                            <x:String>BEhsan</x:String>
+                            <x:String>Uthman Taha Naksh</x:String>
+                            <x:String>Tharwat Emara Ruqaa</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+                <Label FontFamily="{Binding Android}" FontSize="20" x:Name="fstatus"  TextColor="#3cad26"  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"  Text=""></Label>
+
+
+            </Grid>
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="8*" />
+                    <ColumnDefinition Width="4*" />
+
+                </Grid.ColumnDefinitions>
+
+                <Label FontFamily="{Binding Android}" FontSize="20"    VerticalTextAlignment="center" Grid.ColumnSpan="2"  Grid.Row="0" Grid.Column="0" TextColor="White" HorizontalTextAlignment="Center" BackgroundColor="#492602" Text="اعدادات التسبيح"></Label>
+                <Label FontFamily="{Binding Android}" FontSize="20"      Grid.Row="1" Grid.Column="1" Text="تشغيل الصوت"></Label>
+                <Button BackgroundColor="#f1ff3a" x:Name="so"  Clicked="sound"  Grid.Row="1" Grid.Column="0" HorizontalOptions="LayoutOptions.Center" VerticalOptions="LayoutOptions.CenterAndExpand" ></Button>             
+                <Label FontFamily="{Binding Android}" FontSize="20"       Grid.Row="2" Grid.Column="1" Text="تشغيل الاهتزاز"></Label>
+                <Button BackgroundColor="#f1ff3a" x:Name="vibr"  Clicked="vibration"  Grid.Row="2" Grid.Column="0" HorizontalOptions="LayoutOptions.Center" VerticalOptions="LayoutOptions.CenterAndExpand" ></Button>            
+                <Label FontFamily="{Binding Android}" FontSize="20"      Grid.Row="3" Grid.Column="1" Text="الانتقال للذكر التالي"></Label>
+                <Button BackgroundColor="#f1ff3a" x:Name="navi" Clicked="navigation"   Grid.Row="3" Grid.Column="0" HorizontalOptions="LayoutOptions.Center" VerticalOptions="LayoutOptions.CenterAndExpand" ></Button>
+
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
