@@ -3,10 +3,10 @@
 # 🌙 Azkar Elmuslim (أذكار المسلم)
 ### High-Performance Cross-Platform Mobile Application
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
-[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
-[![Architecture](https://img.shields.io/badge/Architecture-Clean%20%2F%20Layered-blueviolet?style=for-the-badge)](https://flutter.dev)
-[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen?style=for-the-badge&logo=android)](https://flutter.dev)
+[![Xamarin.Forms](https://img.shields.io/badge/Xamarin.Forms-5.0-512BD4?style=for-the-badge&logo=xamarin&logoColor=white)](https://dotnet.microsoft.com/apps/xamarin)
+[![C#](https://img.shields.io/badge/C%23-10.0-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Architecture](https://img.shields.io/badge/Architecture-MVVM%20%2F%20Clean-blueviolet?style=for-the-badge)](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen?style=for-the-badge&logo=android)](https://dotnet.microsoft.com/apps/xamarin)
 [![Download APK](https://img.shields.io/badge/Download-APKPure-green?style=for-the-badge&logo=android&logoColor=white)](https://apkpure.com/azkar-elmuslim-%D8%A7%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85/com.skytech.zadelmuslim)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
@@ -30,20 +30,20 @@
 
 Building mobile apps requires more than UI layout—it requires fast startup times, efficient state isolation, smooth frame rates (60/120fps), and zero dependency on active network connections for core features.
 
-**Azkar Elmuslim** serves as a showcase of modern Flutter engineering principles:
+**Azkar Elmuslim** serves as a showcase of modern Xamarin.Forms engineering principles:
 - **Offline-First Architecture:** Instant data retrieval using local persistence engines.
-- **Responsive & Dynamic UI:** Pixel-perfect layout adaptation across various screen densities and device formats.
-- **Resource Efficiency:** Low memory overhead and optimized state management cycles.
+- **Responsive & Dynamic UI:** Pixel-perfect layout adaptation across various screen densities and device formats using XAML layouts.
+- **Resource Efficiency:** Low memory overhead and optimized data-binding state management cycles.
 
 <br/>
 
 ## ✨ Key Technical Highlights & Features
 
-- ⚡ **Offline Data Persistence:** Structured JSON/Local DB caching ensuring complete functionality without internet access.
-- 📿 **Interactive Haptic Engine:** Digital Tasbeeh implementation utilizing native haptic engine feedback for physical tactile user experience.
-- 🎨 **Adaptive Design & Theming:** Custom dark/light mode themes complying with Material 3 design systems and RTL (Right-to-Left) localization best practices.
-- 🔔 **Scheduled Local Notifications:** Background task handling for time-sensitive notifications using platform channels.
-- 🚀 **Performance Optimization:** Minimized widget rebuilds using target state management selectors and `const` constructor optimizations.
+- ⚡ **Offline Data Persistence:** Structured JSON/SQLite local caching ensuring complete functionality without internet access.
+- 📿 **Interactive Haptic Engine:** Digital Tasbeeh implementation utilizing native haptic engine feedback via Xamarin.Essentials.
+- 🎨 **Adaptive Design & Theming:** Custom dark/light mode themes complying with native design systems and RTL (Right-to-Left) localization best practices.
+- 🔔 **Scheduled Local Notifications:** Background task handling for time-sensitive notifications using platform-specific background services.
+- 🚀 **Performance Optimization:** Minimized UI re-renders using optimized XAML compiled bindings (`x:DataType`) and weak references.
 
 <br/>
 
@@ -58,39 +58,36 @@ The application build is compiled, signed, and hosted for direct testing:
 
 ## 🏗️ Architecture & Design Patterns
 
-The project follows clean software engineering practices to ensure scalable, testable, and maintainable codebases:
+The project follows clean software engineering and MVVM principles to ensure scalable, testable, and maintainable codebases:
 
 ```text
-lib/
-├── core/               # Shared utilities, app-wide constants, themes & base services
-│   ├── theme/          # Material 3 dark/light design tokens & Arabic typography
-│   └── utils/          # Extensions, helpers, and formatters
-├── data/               # Data Layer: Models, local storage, and data providers
-│   ├── models/         # Data Transfer Objects (DTOs) & JSON serializers
-│   └── datasources/    # Local database & preferences handlers
-├── presentation/       # UI Layer: Screens, atomic widgets, and state controllers
-│   ├── viewmodels/     # State management & business logic delegation
-│   └── screens/        # UI Views adhering to declarative design principles
-└── main.dart           # Application entry point & service initialization
+AzkarElmuslim/
+├── Core/               # Shared logic, app-wide constants, dynamic resources & themes
+│   ├── Themes/         # XAML ResourceDictionaries for dark/light modes & Arabic typography
+│   └── Helpers/        # Value converters, extensions, and custom renderers
+├── Models/             # Data Layer: Entities, DTOs & SQLite database mappings
+├── Services/           # Data Services: Local storage handlers & notification managers
+├── ViewModels/         # MVVM Layer: Command binding, state isolation & business logic
+└── Views/              # UI Layer: XAML Pages and custom reusable UI components
 
 ```
 
 ### Core Engineering Principles Applied:
 
-* **Separation of Concerns (SoC):** Distinct boundaries between business logic, data persistence, and UI layers.
+* **Model-View-ViewModel (MVVM):** Strict separation of concerns between visual rendering (XAML) and business logic (C# ViewModels).
 * **RTL & Localization First:** Native support for Arabic typography, dynamic text scaling, and proper directional alignment.
-* **State Isolation:** Scoped state updates that prevent unnecessary widget subtree re-renders.
+* **Dependency Injection (DI):** Decoupled service abstraction for testability and platform-specific feature rendering.
 
 ## 🛠️ Tech Stack
 
 | Domain | Technology / Library |
 | --- | --- |
-| **Framework** | [Flutter](https://flutter.dev/) (Dart) |
-| **Architecture Pattern** | Layered / Clean Architecture |
-| **State Management** | Provider / BLoC / GetX *(Adapter pattern ready)* |
-| **Local Storage** | Shared Preferences / Hive / SQLite |
-| **Notifications** | Flutter Local Notifications |
-| **Typography & Styling** | Custom Arabic Fonts & Material Design 3 |
+| **Framework** | [Xamarin.Forms](https://dotnet.microsoft.com/apps/xamarin) (C# / XAML) |
+| **Architecture Pattern** | MVVM (Model-View-ViewModel) / Clean Architecture |
+| **State Management** | INotifyPropertyChanged / ReactiveUI / Prism |
+| **Local Storage** | SQLite.NET / Xamarin.Essentials Preferences |
+| **Platform APIs** | Xamarin.Essentials (Haptics, Device Info, Permissions) |
+| **Typography & Styling** | Embedded Custom Arabic Fonts & Dynamic ResourceDictionaries |
 
 ## 📱 Interface Showcase
 
@@ -102,9 +99,9 @@ lib/
 
 ### Prerequisites
 
-* **Flutter SDK:** `>= 3.0.0`
-* **Dart SDK:** `>= 3.0.0`
-* **IDE:** VS Code or Android Studio
+* **Visual Studio 2022** with the **Mobile Development with .NET (Xamarin)** workload installed.
+* **.NET SDK:** `>= 6.0`
+* **Xamarin.Forms:** `>= 5.0`
 
 ### Getting Started
 
@@ -112,14 +109,13 @@ lib/
 # 1. Clone repository
 git clone [https://github.com/mo-abouelsaad/azkar-elmuslim.git](https://github.com/mo-abouelsaad/azkar-elmuslim.git)
 
-# 2. Navigate into directory
-cd azkar-elmuslim
+# 2. Open solution in Visual Studio
+# Open AzkarElmuslim.sln
 
-# 3. Fetch dependencies
-flutter pub get
+# 3. Restore NuGet packages
+dotnet restore
 
-# 4. Run application in debug mode
-flutter run
+# 4. Set target project (Android or iOS) as Startup Project and Run (F5)
 
 ```
 
