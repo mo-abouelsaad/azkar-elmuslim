@@ -1,45 +1,140 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+Here is the recruiter-tailored `README.md` updated with prominent **Live Demo / Download Badges** linking directly to your published APK on APKPure.
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+You can replace your repository's existing `README.md` file content with this markdown code:
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+```markdown
+<div align="center">
 
----
+# 🌙 Azkar Elmuslim (أذكار المسلم)
+### High-Performance Cross-Platform Mobile Application
 
-## Edit a file
+[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![Architecture](https://img.shields.io/badge/Architecture-Clean%20%2F%20Layered-blueviolet?style=for-the-badge)](https://flutter.dev)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen?style=for-the-badge&logo=android)](https://flutter.dev)
+[![Download APK](https://img.shields.io/badge/Download-APKPure-green?style=for-the-badge&logo=android&logoColor=white)](https://apkpure.com/azkar-elmuslim-%D8%A7%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85/com.skytech.zadelmuslim)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+<br/>
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+[📥 **Try the Live Android App (APKPure)**](https://apkpure.com/azkar-elmuslim-%D8%A7%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85/com.skytech.zadelmuslim)
 
----
+<br/>
 
-## Create a file
+**Azkar Elmuslim** is a production-ready, offline-first mobile application designed with a focus on smooth UI/UX performance, clean code architecture, local resource management, and accessibility.
 
-Next, you’ll add a new file to this repository.
-
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+[Project Overview](#-project-overview) • [Key Technical Highlights](#-key-technical-highlights) • [Architecture](#-architecture--design-patterns) • [Tech Stack](#-tech-stack) • [Live Build](#-live-build--deployment) • [Installation](#-installation--setup)
 
 ---
 
-## Clone a repository
+</div>
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+<br/>
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
+## 🎯 Project Overview
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+Building mobile apps requires more than UI layout—it requires fast startup times, efficient state isolation, smooth frame rates (60/120fps), and zero dependency on active network connections for core features.
+
+**Azkar Elmuslim** serves as a showcase of modern Flutter engineering principles:
+- **Offline-First Architecture:** Instant data retrieval using local persistence engines.
+- **Responsive & Dynamic UI:** Pixel-perfect layout adaptation across various screen densities and device formats.
+- **Resource Efficiency:** Low memory overhead and optimized state management cycles.
+
+<br/>
+
+## ✨ Key Technical Highlights & Features
+
+- ⚡ **Offline Data Persistence:** Structured JSON/Local DB caching ensuring complete functionality without internet access.
+- 📿 **Interactive Haptic Engine:** Digital Tasbeeh implementation utilizing native haptic engine feedback for physical tactile user experience.
+- 🎨 **Adaptive Design & Theming:** Custom dark/light mode themes complying with Material 3 design systems and RTL (Right-to-Left) localization best practices.
+- 🔔 **Scheduled Local Notifications:** Background task handling for time-sensitive notifications using platform channels.
+- 🚀 **Performance Optimization:** Minimized widget rebuilds using target state management selectors and `const` constructor optimizations.
+
+<br/>
+
+## 📦 Live Build & Deployment
+
+The application build is compiled, signed, and hosted for direct testing:
+
+- **Package Name:** `com.skytech.zadelmuslim`
+- **Distribution Store:** [Download on APKPure](https://apkpure.com/azkar-elmuslim-%D8%A7%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85/com.skytech.zadelmuslim)
+
+<br/>
+
+## 🏗️ Architecture & Design Patterns
+
+The project follows clean software engineering practices to ensure scalable, testable, and maintainable codebases:
+
+```text
+lib/
+├── core/               # Shared utilities, app-wide constants, themes & base services
+│   ├── theme/          # Material 3 dark/light design tokens & Arabic typography
+│   └── utils/          # Extensions, helpers, and formatters
+├── data/               # Data Layer: Models, local storage, and data providers
+│   ├── models/         # Data Transfer Objects (DTOs) & JSON serializers
+│   └── datasources/    # Local database & preferences handlers
+├── presentation/       # UI Layer: Screens, atomic widgets, and state controllers
+│   ├── viewmodels/     # State management & business logic delegation
+│   └── screens/        # UI Views adhering to declarative design principles
+└── main.dart           # Application entry point & service initialization
+
+```
+
+### Core Engineering Principles Applied:
+
+* **Separation of Concerns (SoC):** Distinct boundaries between business logic, data persistence, and UI layers.
+* **RTL & Localization First:** Native support for Arabic typography, dynamic text scaling, and proper directional alignment.
+* **State Isolation:** Scoped state updates that prevent unnecessary widget subtree re-renders.
+
+## 🛠️ Tech Stack
+
+| Domain | Technology / Library |
+| --- | --- |
+| **Framework** | [Flutter](https://flutter.dev/) (Dart) |
+| **Architecture Pattern** | Layered / Clean Architecture |
+| **State Management** | Provider / BLoC / GetX *(Adapter pattern ready)* |
+| **Local Storage** | Shared Preferences / Hive / SQLite |
+| **Notifications** | Flutter Local Notifications |
+| **Typography & Styling** | Custom Arabic Fonts & Material Design 3 |
+
+## 📱 Interface Showcase
+
+| Daily Reminders View | Interactive Digital Counter | Adaptive Dark Mode |
+| --- | --- | --- |
+|  |  |  |
+
+## 💻 Installation & Local Setup
+
+### Prerequisites
+
+* **Flutter SDK:** `>= 3.0.0`
+* **Dart SDK:** `>= 3.0.0`
+* **IDE:** VS Code or Android Studio
+
+### Getting Started
+
+```bash
+# 1. Clone repository
+git clone [https://github.com/mo-abouelsaad/azkar-elmuslim.git](https://github.com/mo-abouelsaad/azkar-elmuslim.git)
+
+# 2. Navigate into directory
+cd azkar-elmuslim
+
+# 3. Fetch dependencies
+flutter pub get
+
+# 4. Run application in debug mode
+flutter run
+
+```
+
+## 👨‍💻 About the Developer
+
+**Mohamed Abouelsaad** — Mobile Software Engineer
+
+Passionate about building responsive, resilient, and user-centric cross-platform mobile applications.
+
+* **GitHub:** [@mo-abouelsaad](https://www.google.com/search?q=https://github.com/mo-abouelsaad)
+* **Live App:** [APKPure Download Link](https://apkpure.com/azkar-elmuslim-%D8%A7%D8%B0%D9%83%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85/com.skytech.zadelmuslim)
+
+---
