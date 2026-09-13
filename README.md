@@ -1,8 +1,3 @@
-Here is the recruiter-tailored `README.md` updated with prominent **Live Demo / Download Badges** linking directly to your published APK on APKPure.
-
-You can replace your repository's existing `README.md` file content with this markdown code:
-
-```markdown
 <div align="center">
 
 # 🌙 Azkar Elmuslim (أذكار المسلم)
